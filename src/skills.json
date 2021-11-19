@@ -1,7 +1,92 @@
 [
     {
-        "name": "Javascript",
+        "name": "JavaScript",
         "level": 5,
         "icon": "fab fa-js-square"
+    },
+    {
+        "name": "HTML",
+        "level": 5,
+        "icon": "fab fa-html5"
+    },
+    {
+        "name": "CSS",
+        "level": 5,
+        "icon": "fab fa-css3-alt"
+    },
+    {
+        "name": "Node.js",
+        "level": 4,
+        "icon": "fab fa-node-js"
+    },
+    {
+        "name": "Svelte",
+        "level": 4,
+        "icon": ""
+    },
+    {
+        "name": "Java",
+        "level": 4,
+        "icon": "fab fa-java"
+    },
+    {
+        "name": "PHP",
+        "level": 3,
+        "icon": "fab fa-php"
+    },
+    {
+        "name": "MySQL",
+        "level": 4,
+        "icon": ""
+    },
+    {
+        "name": "MongoDB",
+        "level": 4,
+        "icon": ""
+    },
+    {
+        "name": "AWS",
+        "level": 2,
+        "icon": "fab fa-aws"
+    },
+    {
+        "name": "GitHub",
+        "level": 4,
+        "icon": "fab fa-github"
+    },
+    {
+        "name": "Git",
+        "level": 4,
+        "icon": "fab fa-git-alt"
+    },
+    {
+        "name": "VS Code",
+        "level": 5,
+        "icon": ""
+    },
+    {
+        "name": "Bootstrap",
+        "level": 4,
+        "icon": "fab fa-bootstrap"
+    },
+    {
+        "name": "Tailwind",
+        "level": 4,
+        "icon": ""
+    },
+    {
+        "name": "Flutter",
+        "level": 3,
+        "icon": ""
+    },
+    {
+        "name": "Python",
+        "level": 2,
+        "icon": "fab fa-python"
+    },
+    {
+        "name": "React",
+        "level": 2,
+        "icon": "fab fa-react"
     }
 ]

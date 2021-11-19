@@ -5,7 +5,7 @@
     let dots = [];
 
     for (let i = 0; i < 5; i++) {
-        dots[i] = i <= level ? true : false;
+        dots[i] = i < level ? true : false;
     }
 </script>
 

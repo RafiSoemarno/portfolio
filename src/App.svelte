@@ -1,11 +1,9 @@
-<script>
+<script lang="ts">
 	import Skill from './component/Skill.svelte';
-	const skillList = require('./skills.json');
-
-	//let skills = JSON.parse(skillList);
+	import skills from './skills.json';
 </script>
 
-<main class="bg-primary h-screen pt-16">
+<main class="bg-primary py-16">
 	<div class="flex flex-row justify-center gap-12">
 		<div class="flex flex-col">
 			<img src="https://via.placeholder.com/500x700" alt="" />
@@ -25,12 +23,16 @@
 				<span class="material-icons-round">location_on</span>
 				<span>Bogor, Indonesia</span>
 			</div>
+			<div class="flex items-center gap-2 text-2xl">
+				<span class="material-icons-round">language</span>
+				<span>English & Bahasa Indonesia</span>
+			</div>
 			<hr>
 			<h2 class="text-3xl text-center">Skills</h2>
 			<div class="grid grid-cols-2 gap-5">
-				<!--{#each skills as skill}
+				{#each skills as skill}
 					<Skill icon={skill.icon} name={skill.name} level={skill.level}/>
-				{/each}-->
+				{/each}
 			</div>
 		</div>
 	</div>
