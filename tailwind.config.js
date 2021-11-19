@@ -3,7 +3,11 @@ module.exports = {
   purge: ['./public/index.html', './src/**/*.svelte'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#121212',
+      }
+    },
   },
   variants: {
     extend: {},
