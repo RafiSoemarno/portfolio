@@ -57,10 +57,25 @@
 			</div>
 		</div>
 	</div>
+	<div class="flex flex-row justify-center mt-16">
+		<div class="flex flex-row items-center gap-10 p-4 px-7 bg-white bg-opacity-10 rounded-3xl">
+			<a href="mailto:soemarnorafi@gmail.com" target="_blank"><span class="material-icons-round align-middle contact">mail</span> soemarnorafi@gmail.com</a>
+			<a href="https://github.com/RafiSoemarno" target="_blank"><span class="fab fa-github contact align-middle"/> RafiSoemarno</a>
+			<a href="https://www.linkedin.com/in/rafi-soemarno/" target="_blank"><span class="fab fa-linkedin contact align-middle"/> Rafi Soemarno</a>
+		</div>
+	</div>
 </main>
 
 <style lang="postcss" global>
 	@tailwind base;
 	@tailwind components;
 	@tailwind utilities;
+
+	.material-icons-round.contact {
+		font-size: 36px;
+	}
+
+	.fab.contact {
+		font-size: 28px;
+	}
 </style>
