@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     export let icon;
     export let name;
     export let level;
@@ -11,15 +11,15 @@
 
 <div class="flex justify-between gap-4 bg-white bg-opacity-10 rounded-full p-4 px-6">
     <div>
-        <i class={icon} />
+        <span class={icon} />
         <span class="ml-3 font-bold">{name}</span>
     </div>
     <div class="flex gap-1 items-center">
         {#each dots as dot}
             {#if dot}
-                <span class="material-icons-round">circle</span>
+                <span class="material-icons-round select-none">circle</span>
             {:else}
-                <span class="material-icons-outlined">circle</span>
+                <span class="material-icons-outlined select-none">circle</span>
             {/if}
         {/each}
     </div>

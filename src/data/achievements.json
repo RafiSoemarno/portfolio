@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Studied in <strong>Sekolah Bogor Raya</strong>",
+        "date": "2007 to 2013",
+        "icon": {
+            "class": "material-icons-round",
+            "name": "school"
+        }
+    },
+    {
+        "name": "Studied in <strong>Braeburn Garden Estate</strong>",
+        "date": "2013 to 2016",
+        "icon": {
+            "class": "material-icons-round",
+            "name": "school"
+        }
+    },
+    {
+        "name": "Studied in <strong>Gandhi Memorial Intercontinental School</strong>",
+        "date": "2016 to 2018",
+        "icon": {
+            "class": "material-icons-round",
+            "name": "school"
+        }
+    },
+    {
+        "name": "Studying in <strong>Binus International</strong>",
+        "date": "2019 to 2023",
+        "icon": {
+            "class": "material-icons-round",
+            "name": "school"
+        }
+    }
+]
