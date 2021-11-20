@@ -1,14 +1,20 @@
 <script lang="ts">
 	import Skill from './component/Skill.svelte';
-	import skills from './skills.json';
+	import skills from './data/skills.json';
 </script>
 
-<main class="bg-primary py-16">
+<main class="bg-primary text-gray-300 py-16">
 	<div class="flex flex-row justify-center gap-12">
-		<div class="flex flex-col">
+		<div class="flex flex-col gap-5">
 			<img src="https://via.placeholder.com/500x700" alt="" />
+			<p class="text-center">Likes cats. Enjoys learning about new development tools that make life easier.</p>
+			<hr>
+			<h2 class="text-3xl text-center">Portfolio</h2>
+			<div class="grid grid-cols-2 gap-5">
+
+			</div>
 		</div>
-		<div class="flex flex-col text-gray-300 gap-5">
+		<div class="flex flex-col gap-5">
 			<h1 class="text-4xl">Bismani Rafi Lusadi Soemarno</h1>
 			<hr>
 			<div class="flex items-center gap-2 text-2xl">
@@ -33,6 +39,11 @@
 				{#each skills as skill}
 					<Skill icon={skill.icon} name={skill.name} level={skill.level}/>
 				{/each}
+			</div>
+			<hr>
+			<h2 class="text-3xl text-center">Achievements</h2>
+			<div class="grid grid-cols-2 gap-5">
+
 			</div>
 		</div>
 	</div>
